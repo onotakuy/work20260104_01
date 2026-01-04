@@ -43,4 +43,3 @@ export interface BillingEvent {
   plan: string
   created_at: string
 }
-

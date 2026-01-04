@@ -11,4 +11,3 @@ const r2 = new AWS.S3({
 export const r2Bucket = process.env.R2_BUCKET_NAME!
 
 export default r2
-

@@ -83,4 +83,3 @@ CREATE POLICY "Users can view own assets" ON assets
 
 CREATE POLICY "Users can view own billing events" ON billing_events
   FOR SELECT USING (auth.uid() = user_id);
-
